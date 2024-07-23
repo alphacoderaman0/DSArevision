@@ -16,32 +16,32 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="px-3 py-4 flex gap-2 item-center">
+    <header class="px-3 py-4 flex gap-2 item-center md:py-3">
         <img src="images/site-logo.svg" alt="loading...   ">
         <h1 class="font-bold text-2xl leading-normal">DSA Revision</h1>
     </header>
-    <section class="px-3 py-4 pt-14">
+    <section class="  px-3 py-4 pt-14 md:px-14 md:py-0 pt-0 md:flex md:justify-center md:items-center md:gap-9  lg:px-28 lg:gap-20 lg:py-0">
         <div>
-            <h1 class="text-3xl font-bold  pb-5 font-['quicksand'] ">
+            <h1 class="text-3xl font-bold  pb-5 font-['quicksand'] lg:text-[2.5rem] lg:leading-10">
                 Best way to revise for your next coding interview
             </h1>
-            <p class="text-[#4c527d] text-lg leading-6  font-['roboto'] pb-5">
+            <p class="text-[#4c527d] text-lg leading-6  font-['roboto'] pb-5 lg:text-xl">
                 Get everything in a single guide: Data structures, algorithms, patterns, visualizers,
                 questions, examples, solutions, explanations, and much more!
             </p>
-            <button class="bg-gray-200 w-[100%] h-12 text-xl font-semibold">Buy FREE through <span class="font-bold font-['MabryPro']">GUMROAD</span> </button>
+            <button class="bg-gray-200 w-[100%] h-12 text-xl font-semibold rounded lg:mt-5 mb-5 hover:shadow-[7px_7px_0px_-3px_rgba(205,205,207,1)] hover:bg-[#fa82fa] hover:border border-red-500">Buy FREE through <span class="font-bold font-['MabryPro']">GUMROAD</span> </button>
         </div>
         <div class="pt-20">
-            <img src="images/dsa-main.png" alt="Loading...">
-            <p class="leading-5 font-['Quicksand'] font-bold text-xl h-[100px] w-[100px] bg-[#5cb377] rounded-[50%] flex  flex-col justify-center items-center text-white absolute end-3 top-[56%]">New
+            <img class="md:w-[95%]" src="images/dsa-main.png" alt="Loading...">
+            <p class="leading-5 font-['Quicksand'] font-bold text-xl h-[100px] w-[100px] bg-[#5cb377] rounded-[50%] flex  flex-col justify-center items-center text-white absolute end-3 top-[56%] md:top-[10%] md:end-16 lg:top-[15%] lg:end-36">New
             <span class="font-['Quicksand']">Release</span>
             </p>
         </div>
     </section>
-    <section class="px-3 py-4 pt-20">
-        <h1 class="text-[28px] text-center font-bold font-['quicksand'] pb-12">What's Included</h1>
-        <img src="images/dsa-2.png" alt="Loading..">
-        <ul class="text-[#4c527d] px-6 py-10 leading-10 text-lg">
+    <h1 class="text-[28px] text-center font-bold font-['quicksand'] pt-20 pb-7 lg:text-[40px] lg:pb-3">What's Included</h1>
+    <section class="px-3 py-4 md:flex md:px-14 md:justify-center md:items-center lg:px-20 lg:gap-7">
+        <img class="md:h-96" src="images/dsa-2.png" alt="Loading..">
+        <div><ul class="text-[#4c527d] px-6 py-10 leading-10 text-lg md:py-0 ">
             <li class="list-[url('')]">✅ 15+ algo patterns discussed</li>
             <li class="list-[url('')]">✅ Detailed solutions and explanations</li>
             <li class="list-[url('')]">✅ Awesome resources, articles, blogs</li>
@@ -50,15 +50,16 @@
             <li class="list-[url('')]">✅ Concepts explained for beginners</li>
             <li class="list-[url('')]">✅ All in one revision guide</li>
         </ul>
-        <div class="flex justify-center"><button class="font-bold text-lg bg-orange-600 rounded-[50px] text-white px-7 py-3 " >Download for free</button></div>  
+        <div class="flex justify-center py-9"><button class="font-bold text-lg bg-orange-600 rounded-[50px] text-white px-7 py-3 " >Download for free</button></div></div>
+          
     </section>
-    <section class=" flex flex-col gap-3 px-3 py-4 pt-20">
+    <section class=" flex flex-col gap-3 px-3 py-4 pt-20 md:grid md:grid-rows-2 md:grid-flow-col md:gap-4 md:px-6 lg:px-40">
         <div class="border border-gray-200 rounded px-1">
-            <p class="text-gray-600 px-2 py-6"> “Walling helps us <strong class="text-black">visually organise ideas and tasks</strong>,
+            <p class="text-gray-600 px-2 py-6 lg:pt-10"> “Walling helps us <strong class="text-black">visually organise ideas and tasks</strong>,
                 work collaboratively and efficiently within our team. The visual
                 experience makes it so easy to plan content and stay on track with our
                 projects and campaigns.”</p>
-            <div class="flex">
+            <div class="flex lg:pb-3">
                 <div class="pb-8"><img src="images/profiles/profile-3.png" alt="Loading..." class="rounded-[50%] h-16 px-5 "></div>
                 <div class="pt-2">
                     <p class="text-blue-900">Harsh Pandey</p>
@@ -67,11 +68,11 @@
             </div>
         </div>
         <div class="border border-gray-200 rounded px-1">
-            <p class="text-gray-600 px-2 py-6"> “Walling helps us <strong class="text-black">visually organise ideas and tasks</strong>,
+            <p class="text-gray-600 px-2 py-6 lg:pt-10"> “Walling helps us <strong class="text-black">visually organise ideas and tasks</strong>,
                 work collaboratively and efficiently within our team. The visual
                 experience makes it so easy to plan content and stay on track with our
                 projects and campaigns.”</p>
-            <div class="flex">
+            <div class="flex lg:pb-3">
                 <div class="pb-8"><img src="images/profiles/profile-3.png" alt="Loading..." class="rounded-[50%] h-16 px-5 "></div>
                 <div class="pt-2">
                     <p class="text-blue-900">Harsh Pandey</p>
@@ -80,11 +81,11 @@
             </div>
         </div>
         <div class="border border-gray-200 rounded px-1">
-            <p class="text-gray-600 px-2 py-6"> “Walling helps us <strong class="text-black">visually organise ideas and tasks</strong>,
+            <p class="text-gray-600 px-2 py-6 lg:pt-10"> “Walling helps us <strong class="text-black">visually organise ideas and tasks</strong>,
                 work collaboratively and efficiently within our team. The visual
                 experience makes it so easy to plan content and stay on track with our
                 projects and campaigns.”</p>
-            <div class="flex">
+            <div class="flex lg:pb-3">
                 <div class="pb-8"><img src="images/profiles/profile-3.png" alt="Loading..." class="rounded-[50%] h-16 px-5 "></div>
                 <div class="pt-2">
                     <p class="text-blue-900">Harsh Pandey</p>
@@ -93,11 +94,11 @@
             </div>
         </div>
         <div class="border border-gray-200 rounded px-1">
-            <p class="text-gray-600 px-2 py-6"> “Walling helps us <strong class="text-black">visually organise ideas and tasks</strong>,
+            <p class="text-gray-600 px-2 py-6 lg:pt-10"> “Walling helps us <strong class="text-black">visually organise ideas and tasks</strong>,
                 work collaboratively and efficiently within our team. The visual
                 experience makes it so easy to plan content and stay on track with our
                 projects and campaigns.”</p>
-            <div class="flex">
+            <div class="flex lg:pb-3">
                 <div class="pb-8"><img src="images/profiles/profile-3.png" alt="Loading..." class="rounded-[50%] h-16 px-5 "></div>
                 <div class="pt-2">
                     <p class="text-blue-900">Harsh Pandey</p>
@@ -106,7 +107,7 @@
             </div>
         </div>
     </section>
-    <footer class="px-6 py-7">
+    <footer class="px-6 py-7 md:pb-12">
         <h1 class="text-center text-[#4c527d]">Designed with ❤️ by <strong>Aman Mittal</strong></h1>
     </footer>
 </body>
